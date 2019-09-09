@@ -15,6 +15,7 @@ header{
     height: 300px;
     opacity: .6;
     background-color: black;
+    z-index: 0;    
 }
 
 .title-content{

@@ -14,12 +14,13 @@
 
 <body>
     <header>
-        <!-- <div class="header-mask position-fixed w-100"></div> -->
-        <div class="container position-relative">
+        <div class="header-mask position-absolute w-100"></div>
+        <div class="container position-relative pr-0">
             <div class="row pt-2">
                 <ul class="nav justify-content-end w-100">
                     <li class="nav-item mr-5">
-                        <a class="nav-link p-2" href="#">
+                        <a class="nav-link p-2 d-flex align-items-center" href="#">
+                            <span class="mr-2">jzuleta</span>
                             <i class="material-icons">
                                 person
                             </i>
@@ -53,8 +54,14 @@
                     <h1 class="text-white font-weight-light mb-0">Welcome back</h4>
                         <h6 class="text-white-50 font-weight-normal">Looks like a busy week!</h6>
                 </div>
-                <div class="col-3">
-
+                <div class="col-3 py-3 d-flex justify-content-between bg-dark rounded">
+                    <div class="text-white">
+                        <h6 class="font-weight-normal mb-1">You've logged over</h6>
+                        <h3 class="font-weight-light">4 h Today</h3>
+                    </div>
+                    <i class="material-icons text-white" style="font-size: 60px;">
+                        power_settings_new
+                    </i>
                 </div>
             </div>
             <div class="row">
@@ -165,7 +172,7 @@
                             </i>
                         </div>
                     </div>
-                    <div id="yesterday-tasks" class="col-12 p-0 rounded task-container">
+                    <div id="yesterday-tasks" class="col-12 mb-5 p-0 rounded task-container">
                         <div class="task-card p-3 d-flex justify-content-between align-items-center bg-dark">
                             <div>
                                 <h5 class="font-weight-normal">Amends to 'About Us' page</h5>
