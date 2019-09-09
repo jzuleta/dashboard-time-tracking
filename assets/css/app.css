@@ -1,0 +1,84 @@
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    background-color: #eeeeee;
+}
+
+header{
+    height: 300px;
+    background-image: url(../images/top-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+
+.header-mask{
+    height: 300px;
+    opacity: .6;
+    background-color: black;
+}
+
+.title-content{
+    height: 202px;
+}
+
+.task-definition h6{
+    font-size:14px
+}
+
+.task-container{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);    
+}
+
+#today-tasks .task-card{
+    border-bottom: 2px solid #3cb5f1;
+}
+
+
+#yesterday-tasks .task-card{
+    border-bottom: 2px solid #535353;
+}
+
+.task-card{
+    height: 100px;
+    color: white;    
+}
+
+.nav-link.active{
+    border-bottom: 3px solid #d53437;
+}
+
+.nav-link{
+    color: #c2c7cb
+}
+
+.nav-link:hover{
+    color: #878c90
+}
+
+.bg-primary {
+    background-color: #1293d5!important;
+}
+
+.bg-secondary{
+    background-color: #1eaaf1!important;
+}
+
+.bg-dark{
+    background-color: #3e3e3e!important;
+}
+
+.bg-success{
+    background-color: #4fe3c2!important;
+}
+
+.bg-warning{
+    background-color: #dbd271!important;
+}
+
+.bg-danger{
+    background-color: #ef3f43!important;
+}
+
+.text-muted{
+    color: #9bd6f4 !important;
+}
