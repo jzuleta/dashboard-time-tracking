@@ -50,11 +50,11 @@
                 </ul>
             </div>
             <div class="row title-content d-flex align-items-center">
-                <div class="col-9">
+                <div class="col-lg-9 col-md-8">
                     <h1 class="text-white font-weight-light mb-0">Welcome back</h4>
                         <h6 class="text-white-50 font-weight-normal">Looks like a busy week!</h6>
                 </div>
-                <div class="col-3 py-3 d-flex justify-content-between bg-dark rounded">
+                <div class="col-lg-3 col-md-4 py-3 d-flex justify-content-between bg-dark rounded d-sm-none d-md-flex">
                     <div class="text-white">
                         <h6 class="font-weight-normal mb-1">You've logged over</h6>
                         <h3 class="font-weight-light">4 h Today</h3>
@@ -64,8 +64,8 @@
                     </i>
                 </div>
             </div>
-            <div class="row">
-                <ul class="nav">
+            <div class="row d-none d-md-block d-lg-block d-xl-block">
+                <ul class="nav w-100 justify-content-sm-center justify-content-md-center justify-content-lg-start">
                     <li class="nav-item">
                         <a class="nav-link text-white active" href="#">DASHBOARD</a>
                     </li>
@@ -83,12 +83,52 @@
                     </li>
                 </ul>
             </div>
+            <div class="d-none d-sm-block d-md-none">
+                <ul
+                    class="nav icon-nav w-100 justify-content-sm-center justify-content-md-center justify-content-lg-start">
+                    <li class="nav-item">
+                        <a class="nav-link text-center text-white active" href="#">
+                            <i class="material-icons">
+                                dashboard
+                            </i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center text-white" href="#">
+                            <i class="material-icons">
+                                timelapse
+                            </i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center text-white" href="#">
+                            <i class="material-icons">
+                                card_travel
+                            </i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center text-white" href="#">
+                            <i class="material-icons">
+                                timeline
+                            </i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center text-white" href="#">
+                            <i class="material-icons">
+                                people
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <div class="container mt-4">
         <div class="row">
-            <div class="col-9">
-                <div class="row">
+            <div class="col-lg-9 col-md-12">
+                <div class="row px-2">
                     <div class="col-12 mb-2 px-0 d-flex justify-content-between">
                         <div>
                             <span class="font-weight-bold">Today</span>
@@ -137,7 +177,7 @@
                             </div>
                             <div class="d-flex align-items-center">
                                 <h6 class="mb-0 mr-3">1h 02m</h6>
-                                <h6 class="mb-0 mr-3 font-weight-normal">1:04 PM - 2:06 PM</h6>
+                                <h6 class="mb-0 mr-3 font-weight-normal d-sm-none d-md-block">1:04 PM - 2:06 PM</h6>
                             </div>
                         </div>
                         <div
@@ -152,12 +192,12 @@
                             </div>
                             <div class="d-flex align-items-center">
                                 <h6 class="mb-0 mr-3">2h 57m</h6>
-                                <h6 class="mb-0 mr-3 font-weight-normal">9:02 AM - 11:59 AM</h6>
+                                <h6 class="mb-0 mr-3 font-weight-normal d-sm-none d-md-block">9:02 AM - 11:59 AM</h6>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row px-2">
                     <div class="col-12 mt-4 mb-2 px-0 d-flex justify-content-between">
                         <div>
                             <span class="font-weight-bold">Yesterday</span>
@@ -182,9 +222,9 @@
                                         class="badge badge-secondary bg-primary  font-weight-normal ml-3 px-2 py-1">ABC
                                         Associates</span></h6>
                             </div>
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center ">
                                 <h6 class="mb-0 mr-3">16 m</h6>
-                                <h6 class="mb-0 mr-3 font-weight-normal">4:45 PM - 5:01 PM</h6>
+                                <h6 class="mb-0 mr-3 font-weight-normal d-sm-none d-md-block">4:45 PM - 5:01 PM</h6>
                             </div>
                         </div>
                         <div class="task-card p-3 d-flex justify-content-between align-items-center bg-dark">
@@ -196,9 +236,9 @@
                                         class="badge badge-secondary bg-primary  font-weight-normal ml-3 px-2 py-1">ABC
                                         Associates</span></h6>
                             </div>
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center ">
                                 <h6 class="mb-0 mr-3">3 h</h6>
-                                <h6 class="mb-0 mr-3 font-weight-normal">1:45 PM - 4:45 PM</h6>
+                                <h6 class="mb-0 mr-3 font-weight-normal d-sm-none d-md-block">1:45 PM - 4:45 PM</h6>
                             </div>
                         </div>
                         <div class="task-card p-3 d-flex justify-content-between align-items-center bg-dark">
@@ -210,9 +250,9 @@
                                         class="badge badge-secondary bg-success font-weight-normal ml-3 px-2 py-1">Holiapp</span>
                                 </h6>
                             </div>
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center ">
                                 <h6 class="mb-0 mr-3">2 h 50 m</h6>
-                                <h6 class="mb-0 mr-3 font-weight-normal">9:50 AM - 12:40 PM</h6>
+                                <h6 class="mb-0 mr-3 font-weight-normal d-sm-none d-md-block">9:50 AM - 12:40 PM</h6>
                             </div>
                         </div>
                         <div class="task-card p-3 d-flex justify-content-between align-items-center bg-dark">
@@ -226,7 +266,7 @@
                             </div>
                             <div class="d-flex align-items-center">
                                 <h6 class="mb-0 mr-3">7 m</h6>
-                                <h6 class="mb-0 mr-3 font-weight-normal">9:11 AM - 9:41 AM</h6>
+                                <h6 class="mb-0 mr-3 font-weight-normal d-sm-none d-md-block">9:11 AM - 9:41 AM</h6>
                             </div>
                         </div>
                         <div class="task-card p-3 d-flex justify-content-between align-items-center bg-dark">
@@ -240,7 +280,7 @@
                             </div>
                             <div class="d-flex align-items-center">
                                 <h6 class="mb-0 mr-3">30 m</h6>
-                                <h6 class="mb-0 mr-3 font-weight-normal">9:11 - 9:41</h6>
+                                <h6 class="mb-0 mr-3 font-weight-normal d-sm-none d-md-block">9:11 - 9:41</h6>
                             </div>
                         </div>
                         <div class="task-card p-3 d-flex justify-content-between align-items-center bg-dark">
@@ -254,16 +294,16 @@
                             </div>
                             <div class="d-flex align-items-center">
                                 <h6 class="mb-0 mr-3">1 h 9 m</h6>
-                                <h6 class="mb-0 mr-3 font-weight-normal">8:00 AM - 9:09 AM</h6>
+                                <h6 class="mb-0 mr-3 font-weight-normal d-sm-none d-md-block">8:00 AM - 9:09 AM</h6>
                             </div>
                         </div>
 
                     </div>
                 </div>
             </div>
-            <div class="col-3">
-                <div class="row">
-                    <div class="col-12 px-0 ml-3 mb-2 d-flex justify-content-between">
+            <div class="col-lg-3 col-md-12">
+                <div class="row px-2 mb-5">
+                    <div class="col-12 px-0 mb-2 d-flex justify-content-between">
                         <div>
                             <span class="font-weight-bold">Tasks</span>
                         </div>
@@ -271,7 +311,7 @@
                             <i class="material-icons text-black-50">menu</i>
                         </div>
                     </div>
-                    <div class="col-12 p-0 ml-3 rounded task-container">
+                    <div class="col-12 p-0 rounded task-container">
                         <div class="task-header px-3 py-2 d-flex bg-success justify-content-between">
                             <span class="text-white">Holiapp</span>
                             <i class="material-icons text-white">add</i>

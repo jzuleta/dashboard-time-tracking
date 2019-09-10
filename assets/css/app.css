@@ -48,6 +48,11 @@ header{
     border-bottom: 3px solid #d53437;
 }
 
+.icon-nav li a {
+    width: 100px;
+    padding: 4px 0 5px 0;
+}
+
 .nav-link{
     color: #c2c7cb
 }
